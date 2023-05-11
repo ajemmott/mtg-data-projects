@@ -1,4 +1,4 @@
-# %%
+
 import re
 
 def get_cmc(mana_cost):
@@ -26,8 +26,3 @@ def eval_mana(symbol):
         return 1
     
     raise Exception
-
-# %%
-
-get_cmc('{X}{1}{b/p/4}')
-# %%
